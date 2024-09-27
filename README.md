@@ -12,7 +12,7 @@ Installation
 
 Schritte, um das Projekt lokal zu installieren:
 
-Repository klonen: git clone https://github.com/andreaslesovsky/bilder-beschneiden.git
+Repository klonen: git clone https://github.com/andreaslesovsky/bilder-bearbeiten.git
 
 Autoren
 
