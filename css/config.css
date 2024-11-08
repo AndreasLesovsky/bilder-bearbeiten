@@ -1,0 +1,27 @@
+:root {
+    /* ---- Farben ---- */
+    
+    --col-font: #333;
+    --col-font-inverted: #e1e1e1;
+    --col-main: #ff3f2e;
+    --col-bg: #f2f2f2;
+    --col-shadow: #1f1f1f;
+
+    /* ---- ENDE Farben ---- */
+
+
+    /* ---- Schriften ---- */
+    --font-std: 'Open Sans', Arial, sans-serif;
+    --font-headlines: 'Poppins', Arial, sans-serif;
+    /* ---- ENDE Schriften ---- */
+}
+@media (prefers-color-scheme: dark) {
+    :root {
+        --col-font: #e1e1e1;
+        --col-font-inverted: #333;
+        --col-main: #ff3f2e;
+        --col-bg: #222222;
+        --col-shadow: rgba(255, 255, 255, 0.2);
+    }
+
+}

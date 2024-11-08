@@ -1,0 +1,79 @@
+/* ---- Media Queries ---- */
+
+/* >80rem XL */
+
+@media screen and (min-width:calc(80rem + 0.1px)) {}
+
+/* >80rem XL Ende */
+
+
+
+/* max 80rem LG */
+
+@media screen and (max-width:80rem) {}
+
+/* max 80rem LG Ende */
+
+
+
+/* max 64rem MD */
+
+@media screen and (max-width:64rem) {
+
+    /* 
+    main {
+        min-height: calc(100vh - 67 - 8px);
+    } */
+}
+
+/* max 64rem MD Ende */
+
+
+
+/* max 48rem SM */
+
+@media screen and (max-width:48rem) {
+    
+}
+
+/* max 48rem SM Ende*/
+
+
+
+/* max 36rem XS */
+
+@media screen and (max-width:36rem) {
+    main {
+        min-height: calc(100vh - 5rem - 74px);
+    }
+}
+
+/* Mobile max 36rem XS Ende */
+
+
+/* max 25rem XXS */
+
+@media screen and (max-width:25rem) {
+    h1 {
+        font-size: 1.5rem;
+    }
+    h1 svg {
+        width: 1.5rem;
+        top: 0.2rem;
+    }
+
+    .preview-container img {
+        max-width: 10rem;
+    }
+    
+}
+
+/* max 25rem XXS Ende */
+
+/* Mozilla Firefox */
+@-moz-document url-prefix() {}
+
+/* Google Chrome und andere Webkit-basierte Browser */
+@media screen and (-webkit-min-device-pixel-ratio:0) {}
+
+/* ---- Media Queries Ende ---- */

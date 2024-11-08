@@ -1,0 +1,233 @@
+/* ---- Allgemein ---- */
+body {
+	font-family: var(--font-std);
+	color: var(--col-font);
+	font-size: 1rem;
+	letter-spacing: 0.04rem;
+	line-height: 1.5;
+	background-color: var(--col-bg);
+}
+h1 {
+	font-family: var(--font-headlines);
+	font-size: 3rem;
+	font-weight: bolder;
+	line-height: 1.2;
+	color: var(--col-main);
+	place-self: start;
+	margin-block: 1rem;
+}
+h1 svg {
+	width: 3rem;
+	top: 0.4rem;
+}
+section.grid {
+	row-gap: 1rem;
+}
+#cropped-image {
+	max-width: 20rem;
+	max-height: 15rem;
+}
+
+.link-btn {
+	font-size: 1.175rem;
+	color: var(--col-font);
+	font-weight: bold;
+	text-decoration: none;
+	text-wrap: nowrap;
+	background: var(--col-section);
+	border: 2px solid var(--col-main);
+	padding: 0.3rem 1rem 0.3rem 1rem;
+	cursor: pointer;
+	transition: color ease 0.5s;
+}
+
+.link-btn:hover {
+	background-color: var(--col-main);
+	transition: background-color ease 0.5s;
+}
+#cropped-image {
+	max-width: 20rem;
+}
+/* ---- ENDE Allgemein ---- */
+
+/* ---- Header ---- */
+
+header {
+	background-color: var(--col-font-inverted);
+	box-shadow: var(--col-shadow) 0px 2px 5px -1px, var(--col-shadow) 0px 1px 3px -1px;
+}
+
+header div div {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+header div div {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+/* ---- Nav ---- */
+#contentSwitcher {
+	padding: 0.25rem 0.5rem;
+	background-color: var(--col-bg);
+	border-radius: 0.25rem;
+	margin-block: 1rem;
+}
+/* ---- ENDE Nav ---- */
+
+/* ---- ENDE Header ---- */
+
+/* ---- Main ---- */
+main {
+	place-items: start;
+	padding-block: 3rem;
+}
+.preview-container {
+	display: inline-block;
+}
+.bild-preview {
+	justify-self: start;
+	margin-block: 1rem;
+}
+/* ---- ENDE Main ---- */
+
+/* ---- Formular ---- */
+input {
+	display: block;
+}
+
+form {
+	width: 100%;
+	padding-inline: 0 !important;
+}
+
+form>* {
+	border-radius: 0.25rem;
+}
+
+legend {
+	font-size: 1.25rem;
+	margin-bottom: 1rem;
+}
+
+main form input {
+	display: block;
+	width: 100%;
+	padding: 0.25rem;
+}
+
+.custom-file-upload input[type="file"] {
+	display: block;
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+}
+.image-upload-container {
+	justify-items: center;
+}
+.custom-file-upload {
+	border: 2px solid var(--col-font);
+	border-radius: 0.25rem;
+	display: grid;
+	align-items: center;
+	grid-template-columns: 12.5rem 1fr 2rem 2rem;
+	grid-template-areas: "label-text . upl-button clear-button";
+
+	justify-self: stretch;
+}
+
+.custom-file-upload label {
+	grid-area: label-text;
+	margin-block: 0;
+	padding-left: 0.5rem;
+	cursor: pointer;
+}
+
+.custom-file-upload button:first-of-type {
+	grid-area: upl-button;
+}
+
+.custom-file-upload button:last-of-type {
+	grid-area: clear-button;
+}
+
+.clear-button,
+.upload-button {
+	width: 2rem;
+	height: 2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	border-top: none;
+	border-right: none;
+	border-bottom: none;
+}
+
+.clear-button:active,
+.upload-button:active,
+.clear-button:focus,
+.upload-button:focus {
+	background-color: var(--col-main);
+	border-top: none;
+	border-right: none;
+	border-bottom: none;
+	border-color: var(--col-font);
+	outline: none;
+}
+
+.preview-container img {
+	display: none;
+	max-width: 20rem;
+}
+
+input[type="submit"] {
+	color: var(--col-font);
+	font-size: 1.25rem;
+	font-weight: bold;
+	padding: 0.5rem 1rem;
+	width: initial;
+	text-transform: uppercase;
+	cursor: pointer;
+	transition: background-color ease 0.5s, border ease 0.5s;
+}
+
+input[type="submit"]:hover {
+	color: var(--col-font);
+	background-color: var(--col-main);
+	border-color: var(--col-main);
+	box-shadow: var(--col-shadow) 0px 5px 15px;
+}
+
+fieldset {
+	width: 100%;
+	padding-inline: 0 !important;
+}
+
+input[type="number"] {
+	width: 100%;
+	border-radius: 0.25rem;
+}
+
+/* ---- ENDE Formular ---- */
+
+/* ---- Footer ---- */
+footer {
+	color: var(--col-font-inverted);
+	font-size: 1.5rem;
+	background-color: var(--col-main);
+	font-weight: bold;
+	padding: 1rem;
+	box-shadow: var(--col-shadow) 0px -2px 5px -1px, var(--col-shadow) 0px 1px 3px -1px;
+}
+footer>div {
+	align-items: center;
+}
+footer address {
+	font-style: normal;
+	
+}
+
+/* ---- ENDE Footer ---- */
