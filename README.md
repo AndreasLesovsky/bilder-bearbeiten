@@ -4,7 +4,7 @@ Eine Web App um Bilder sowohl zu beschneiden als auch zu skalieren, erstellt mit
 
 ## Features
 - Von einem hochgeladenen Bild können Pixel von allen vier Seiten entfernt werden
-- Es ist auch möglich ein Bild in mehrern Zielgrößen zu skalieren
+- Es ist auch möglich ein Bild in mehreren Zielgrößen zu skalieren
 - Bearbeitete Bilder können heruntergeladen werden
 
 ## Installation
