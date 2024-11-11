@@ -5,7 +5,7 @@ define("DB",[
 	"host" => "localhost",
 	"user" => "root",
 	"pwd" => "",
-	"name" => "db_3614",
+	"name" => "",
 	"charset" => "utf8mb4",
 	"errorpages" => [
 		"dbconnect" => "errors/dbconnect.html"
